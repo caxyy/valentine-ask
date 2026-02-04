@@ -60,7 +60,7 @@ noBtn.addEventListener("mouseover", () => {
 // YES is clicked
 
 yesBtn.addEventListener("click", () => {
-    title.textContent = "Yippeeee!";
+    title.textContent = "I LOVE YOU SAJAG 💘";
 
     catImg.src = "cat_dance.gif";
 
@@ -69,4 +69,8 @@ yesBtn.addEventListener("click", () => {
     buttons.style.display = "none";
 
     finalText.style.display = "block";
+
+    setTimeout(() => {
+        window.open("https://open.spotify.com/track/1Y3LN4zO1Edc2EluIoSPJN?si=8772971c73254b01&t=43", "_blank");
+    }, 800);
 });
